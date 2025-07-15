@@ -1,5 +1,4 @@
 # LeetCode
-========
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
