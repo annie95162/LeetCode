@@ -3,4 +3,4 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | [C++]
+|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | [C++](algorithms/c++/climbing_stairs.cpp) | Easy
