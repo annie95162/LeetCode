@@ -6,3 +6,4 @@
 |1|[Two Sum](https://leetcode.com/problems/two-sum/) | [C++](/algorithms/c++/Two%20Sum/TwoSum.cpp) | Easy
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [C++](/algorithms/c++/Merge%20Sorted%20Array/MergeSortedArray.cpp) | Easy
 |27|[Remove Element](https://leetcode.com/problems/remove-element/) | [C++](/algorithms/c++/Remove%20Element/RemoveElement.cpp) | Easy
+|283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [C++](/algorithms/c++/Move%20Zeroes/MoveZeroes.cpp) | Easy
