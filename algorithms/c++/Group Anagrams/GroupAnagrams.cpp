@@ -1,3 +1,7 @@
+// Source : https://leetcode.com/problems/group-anagrams/
+// Author : Min Fang
+// Date   : 2025-07-22
+
 /**********************************************************************************
 *
 * Given an array of strings `strs`, the task is to group all anagrams together.
