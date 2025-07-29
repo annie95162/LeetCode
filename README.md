@@ -12,3 +12,4 @@
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [C++](/algorithms/c%2B%2B/Valid%20Anagram/ValidAnagram.cpp) | Easy
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [C++](/algorithms/c++/Group%20Anagrams/GroupAnagrams.cpp) | Medium
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [C++](/algorithms/c++/Contains%20Duplicate/ContainsDuplicate.cpp) | Easy
+|136|[Single Number](https://leetcode.com/problems/contains-duplicate/) | [C++](/algorithms/c%2B%2B/Single%20Number/SingleNumber.cpp) | Easy
