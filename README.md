@@ -14,3 +14,4 @@
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [C++](/algorithms/c++/Contains%20Duplicate/ContainsDuplicate.cpp) | Easy
 |136|[Single Number](https://leetcode.com/problems/contains-duplicate/) | [C++](/algorithms/c%2B%2B/Single%20Number/SingleNumber.cpp) | Easy
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [C++](/algorithms/c++/Remove%20Duplicates%20from%20Sorted%20Array/RemoveDuplicatesfromSortedArray.cpp) | Easy
+|35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [C++](/algorithms/c++/Search%20Insert%20Position/SearchInsertPosition.cpp) | Easy
