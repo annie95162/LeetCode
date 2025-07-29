@@ -11,3 +11,4 @@
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/) | [C++](/algorithms/c%2B%2B/Reverse%20String/ReverseString.cpp) | Easy
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [C++](/algorithms/c%2B%2B/Valid%20Anagram/ValidAnagram.cpp) | Easy
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [C++](/algorithms/c++/Group%20Anagrams/GroupAnagrams.cpp) | Medium
+|217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [C++](/algorithms/c++/Contains%20Duplicate/ContainsDuplicate.cpp) | Easy
