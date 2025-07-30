@@ -15,3 +15,4 @@
 |136|[Single Number](https://leetcode.com/problems/contains-duplicate/) | [C++](/algorithms/c%2B%2B/Single%20Number/SingleNumber.cpp) | Easy
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [C++](/algorithms/c++/Remove%20Duplicates%20from%20Sorted%20Array/RemoveDuplicatesfromSortedArray.cpp) | Easy
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [C++](/algorithms/c++/Search%20Insert%20Position/SearchInsertPosition.cpp) | Easy
+|122|[Best Time to Buy and Sell Stock 2](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii) | [C++](/algorithms/c++/Best%20Time%20to%20Buy%20and%20Sell%20Stock%202/BestTimetoBuyandSellStock2.cpp) | Medium
