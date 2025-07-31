@@ -17,3 +17,4 @@
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [C++](/algorithms/c++/Search%20Insert%20Position/SearchInsertPosition.cpp) | Easy
 |122|[Best Time to Buy and Sell Stock 2](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii) | [C++](/algorithms/c++/Best%20Time%20to%20Buy%20and%20Sell%20Stock%202/BestTimetoBuyandSellStock2.cpp) | Medium
 |169|[Majority Element](https://leetcode.com/problems/majority-element/) | [C++](/algorithms/c++/Majority%20Element/MajorityElement.cpp) | Easy
+|387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/) | [C++](/algorithms/c++/FirstUniqueCharacterinaString/FirstUniqueCharacterinaString.cpp) | Easy
