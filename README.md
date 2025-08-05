@@ -19,3 +19,4 @@
 |169|[Majority Element](https://leetcode.com/problems/majority-element/) | [C++](/algorithms/c++/Majority%20Element/MajorityElement.cpp) | Easy
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/) | [C++](/algorithms/c++/First%20Unique%20Character%20in%20a%20String/FirstUniqueCharacterinaString.cpp) | Easy
 |290|[Word Pattern](https://leetcode.com/problems/word-pattern/) | [C++](/algorithms/c++/Word%20Pattern/WordPattern.cpp) | Easy
+|451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [C++](/algorithms/c++/Sort%20Characters%20By%20Frequency/SortCharactersByFrequency.cpp) | Medium
