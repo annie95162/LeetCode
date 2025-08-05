@@ -21,3 +21,4 @@
 |290|[Word Pattern](https://leetcode.com/problems/word-pattern/) | [C++](/algorithms/c++/Word%20Pattern/WordPattern.cpp) | Easy
 |451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [C++](/algorithms/c++/Sort%20Characters%20By%20Frequency/SortCharactersByFrequency.cpp) | Medium
 |205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | [C++](/algorithms/c++/Isomorphic%20Strings/IsomorphicStrings.cpp) | Easy
+|232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [C++](/algorithms/c++/Implement%20Queue%20using%20Stacks/ImplementQueueusingStacks.cpp) | Easy
