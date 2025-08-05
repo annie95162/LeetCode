@@ -25,35 +25,6 @@
  * 4. Traverse the buckets in reverse (from high frequency to low),
  *    and construct the result string by repeating each character `i` times.
  *
- * Code:
- * -----------------------------------------------------------------
- * class Solution {
- * public:
- *     string frequencySort(string s) {
- *         unordered_map<char, int> map;
- *         string ans;
- *         int maxf = 0;
- *         for (int i = 0; i < s.size(); i++) {
- *             map[s[i]]++;
- *             maxf = max(maxf, map[s[i]]);
- *         }
- *
- *         vector<string> buc(maxf + 1);
- *         for (auto [ch, num] : map) {
- *             buc[num].push_back(ch);
- *         }
- *
- *         for (int j = maxf; j > 0; j--) {
- *             for (int k = 0; k < buc[j].size(); k++) {
- *                 for (int l = 0; l < j; l++) {
- *                     ans.push_back(buc[j][k]);
- *                 }
- *             }
- *         }
- *         return ans;
- *     }
- * };
- *
  * Properties:
  * - Time Complexity: O(n + k), where n is the length of the string,
  *   and k is the number of distinct characters (at most 62).
