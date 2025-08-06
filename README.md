@@ -24,3 +24,4 @@
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [C++](/algorithms/c++/Implement%20Queue%20using%20Stacks/ImplementQueueusingStacks.cpp) | Easy
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [C++](/algorithms/c++/Implement%20Stack%20using%20Queues/Imp) | Easy
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [C++](/algorithms/c++/Valid%20Parentheses/ValidParentheses.cpp) | Easy
+|682|[Baseball Game](https://leetcode.com/problems/baseball-game/) | [C++](/algorithms/c++/Baseball%20Game/BaseballGame.cpp) | Easy
