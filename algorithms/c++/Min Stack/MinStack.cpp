@@ -3,65 +3,74 @@
 // Date   : 2025-08-07
 
 /**********************************************************************************
- *
- * Problem:
- * --------
- * Design a stack that supports the following operations in constant time:
- * - push(val): Pushes the element onto the stack.
- * - pop(): Removes the top element of the stack.
- * - top(): Returns the top element.
- * - getMin(): Returns the minimum element in the stack.
- *
- *
- * Goal:
- * -----
- * Implement all four methods with O(1) time complexity.
- *
- *
- * Approach:
- * ---------
- * Use two stacks:
- * - `s`: the main stack to store all values.
- * - `s2`: an auxiliary stack to store the current minimum at each level of the main stack.
- *
- *
- * Step-by-step Logic:
- * -------------------
- * - On initialization:
- *     - Push `INT_MAX` into `s2` to serve as a sentinel for comparisons.
- *
- * - When calling `push(val)`:
- *     - Push `val` into the main stack `s`.
- *     - Push the smaller value between `val` and `s2.top()` into `s2`.
- *       This ensures `s2.top()` always reflects the current minimum.
- *
- * - When calling `pop()`:
- *     - Pop the top elements from both `s` and `s2` to maintain their alignment.
- *
- * - When calling `top()`:
- *     - Return `s.top()`, the most recently pushed value.
- *
- * - When calling `getMin()`:
- *     - Return `s2.top()`, which always holds the minimum element in the current stack state.
- *
- *
- * Time Complexity:
- * ----------------
- * - O(1) for all operations: push, pop, top, and getMin.
- *
- * Space Complexity:
- * -----------------
- * - O(n), where n is the number of elements in the stack.
- *   Both stacks grow linearly with the number of pushes.
- *
- *
- * Notes:
- * ------
- * - By mirroring the main stack with a min-tracking stack,
- *   we avoid the need to scan the entire stack to find the minimum.
- * - This approach is efficient and commonly used for implementing a min-stack.
- *
- **********************************************************************************/
+*
+* Problem:
+* Design a stack that supports the following operations in constant time:
+* - push(val): Push an integer `val` onto the stack.
+* - pop(): Remove the element on top of the stack.
+* - top(): Return the top element of the stack.
+* - getMin(): Retrieve the minimum element in the stack.
+*
+* Example:
+*   Input:
+*     ["MinStack","push","push","push","getMin","pop","top","getMin"]
+*     [[],[-2],[0],[-3],[],[],[],[]]
+*
+*   Output:
+*     [null,null,null,null,-3,null,0,-2]
+*
+*   Explanation:
+*     MinStack minStack = new MinStack();
+*     minStack.push(-2);
+*     minStack.push(0);
+*     minStack.push(-3);
+*     minStack.getMin(); // return -3
+*     minStack.pop();
+*     minStack.top();    // return 0
+*     minStack.getMin(); // return -2
+*
+*
+* Constraints:
+* - -2^31 <= val <= 2^31 - 1
+* - All pop(), top(), and getMin() operations will only be called on non-empty stacks.
+* - At most 3 * 10^4 calls will be made to all operations.
+*
+*
+* Approach:
+*
+* - Use two stacks:
+*   1. `s`: to store the actual elements.
+*   2. `s2`: to keep track of the minimum element at each level of the stack.
+*
+* - Initialize `s2` with `INT_MAX` to ensure valid comparisons when the first element is pushed.
+*
+* - For push(val):
+*     1. Push `val` to the main stack `s`.
+*     2. Push `min(val, s2.top())` to the min stack `s2` to maintain the current minimum.
+*
+* - For pop():
+*     - Pop the top element from both stacks to keep them aligned.
+*
+* - For top():
+*     - Return `s.top()` which represents the current top of the main stack.
+*
+* - For getMin():
+*     - Return `s2.top()` which holds the current minimum of the stack.
+*
+*
+* Time Complexity: O(1)
+* - Each operation (push, pop, top, getMin) is done in constant time.
+*
+* Space Complexity: O(n)
+* - In the worst case, both stacks hold `n` elements, where `n` is the total number of push operations.
+*
+*
+* ✅ Notes:
+* - By mirroring the stack with a second stack for minimum values,
+*   we ensure that getMin() is always a simple and efficient O(1) operation.
+* - This is a well-known and optimal method for tracking the minimum element in a stack.
+*
+**********************************************************************************/
 class MinStack {
 private:
     stack<int> s;
