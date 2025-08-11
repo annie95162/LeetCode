@@ -30,3 +30,4 @@
 |118|[Pascal's Triangle I](https://leetcode.com/problems/pascals-triangle/) | [C++](/algorithms/c++/Pascal's%20Triangle%20I/Pascal'sTriangleI.cpp) | Easy
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | [C++](/algorithms/c++/Pascal's%20Triangle%20II/Pascal'sTriangleII.cpp) | Easy
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [C++](/algorithms/c++/Intersection%20of%20Two%20Arrays%20II/IntersectionofTwoArraysII.cpp) | Easy
+|349|[Intersection of Two Arrays I](https://leetcode.com/problems/intersection-of-two-arrays/) | [C++](/algorithms/c++/Intersection%20of%20Two%20Arrays%20I/IntersectionofTwoArraysI.cpp) | Easy
