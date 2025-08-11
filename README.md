@@ -29,4 +29,4 @@
 |496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | [C++](/algorithms/c%2B%2B/Next%20Greater%20Element%20I/NextGreaterElementI.cpp) | Easy
 |118|[Pascal's Triangle I](https://leetcode.com/problems/pascals-triangle/) | [C++](/algorithms/c++/Pascal's%20Triangle%20I/Pascal'sTriangleI.cpp) | Easy
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | [C++](/algorithms/c++/Pascal's%20Triangle%20II/Pascal'sTriangleII.cpp) | Easy
-|350|[Intersection od Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [C++](/algorithms/c++/Intersection%20of%20Two%20Arrays%20II/IntersectionofTwoArraysII.cpp) | Easy
+|350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [C++](/algorithms/c++/Intersection%20of%20Two%20Arrays%20II/IntersectionofTwoArraysII.cpp) | Easy
