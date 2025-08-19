@@ -38,3 +38,4 @@
 |438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [C++](/algorithms/c++/Find%20All%20Anagrams%20in%20a%20String/FindAllAnagramsinaString.cpp) | Medium
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [C++](/algorithms/c++/Minimum%20Window%20Substring/MinimumWindowSubstring.cpp) | Hard
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [C++](/algorithms/c++/Max%20Consecutive%20Ones/MaxConsecutiveOnes.cpp) | Easy
+|1004|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones-iii/) | [C++](/algorithms/c++/Max%20Consecutive%20Ones%20III/MaxConsecutiveOnesIII.cpp) | Medium
