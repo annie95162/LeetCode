@@ -59,7 +59,6 @@ public:
         for(int i = 0; i < nums.size(); i++){
             sum += nums[i];
             while(sum - nums[left] >= target){
-                cout << sum << endl;
                 sum -= nums[left];
                 left++;
             }
