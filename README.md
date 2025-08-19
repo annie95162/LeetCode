@@ -37,3 +37,4 @@
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [C++](/algorithms/c++/Permutation%20in%20String/PermutationinString.cpp) | Medium
 |438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [C++](/algorithms/c++/Find%20All%20Anagrams%20in%20a%20String/FindAllAnagramsinaString.cpp) | Medium
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [C++](/algorithms/c++/Minimum%20Window%20Substring/MinimumWindowSubstring.cpp) | Hard
+|485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [C++](/algorithms/c++/Max%20Consecutive%20Ones/MaxConsecutiveOnes.cpp) | Easy
