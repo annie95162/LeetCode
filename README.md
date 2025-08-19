@@ -40,3 +40,4 @@
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [C++](/algorithms/c++/Max%20Consecutive%20Ones/MaxConsecutiveOnes.cpp) | Easy
 |1004|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones-iii/) | [C++](/algorithms/c++/Max%20Consecutive%20Ones%20III/MaxConsecutiveOnesIII.cpp) | Medium
 |643|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | [C++](/algorithms/c++/Maximum%20Average%20Subarray%20I/MaximumAverageSubarrayI.cpp) | Easy
+|209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [C++](/algorithms/c++/Minimum%20Size%20Subarray%20Sum/MinimumSizeSubarraySum.cpp) | Medium
