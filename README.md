@@ -36,3 +36,4 @@
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [C++](/algorithms/c++/Longest%20Substring%20Without%20Repeating%20Characters/LongestSubstringWithoutRepeatingCharacters.cpp) | Medium
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [C++](/algorithms/c++/Permutation%20in%20String/PermutationinString.cpp) | Medium
 |438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [C++](/algorithms/c++/Find%20All%20Anagrams%20in%20a%20String/FindAllAnagramsinaString.cpp) | Medium
+|76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [C++](/algorithms/c++/Minimum%20Window%20Substring/MinimumWindowSubstring.cpp) | Hard
