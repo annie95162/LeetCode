@@ -43,3 +43,4 @@
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [C++](/algorithms/c++/Minimum%20Size%20Subarray%20Sum/MinimumSizeSubarraySum.cpp) | Medium
 |605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | [C++](/algorithms/c++/Can%20Place%20Flowers/CanPlaceFlowers.cpp) | Easy
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/) | [C++](/algorithms/c++/Is%20Subsequence/IsSubsequence.cpp) | Easy
+|704|[Binary Search](https://leetcode.com/problems/binary-search/) | [C++](/algorithms/c++/Binary%20Search/BinarySearch.cpp) | Easy
