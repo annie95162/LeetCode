@@ -1,6 +1,6 @@
 // Source : https://leetcode.com/problems/maximum-average-subarray-i/
 // Author : Min Fang
-// Date   : 2025-08-20
+// Date   : 2025-08-19
 
 /********************************************************************************** 
 *
