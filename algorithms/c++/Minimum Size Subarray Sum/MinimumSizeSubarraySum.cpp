@@ -1,6 +1,6 @@
 // Source : https://leetcode.com/problems/minimum-size-subarray-sum/
 // Author : Min Fang
-// Date   : 2025-08-20
+// Date   : 2025-08-19
 
 /**********************************************************************************
 *
