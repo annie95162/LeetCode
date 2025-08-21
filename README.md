@@ -44,3 +44,4 @@
 |605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | [C++](/algorithms/c++/Can%20Place%20Flowers/CanPlaceFlowers.cpp) | Easy
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/) | [C++](/algorithms/c++/Is%20Subsequence/IsSubsequence.cpp) | Easy
 |704|[Binary Search](https://leetcode.com/problems/binary-search/) | [C++](/algorithms/c++/Binary%20Search/BinarySearch.cpp) | Easy
+|121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [C++](/algorithms/c++/Best%20Time%20to%20Buy%20and%20Sell%20Stock/BestTimetoBuyandSellStock.cpp) | Easy
