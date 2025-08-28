@@ -52,3 +52,4 @@
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [C++](/algorithms/c++/Find%20Minimum%20in%20Rotated%20Sorted%20Array/FindMinimuminRotatedSortedArray.cpp) | Medium
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/) | [C++](/algorithms/c++/Find%20Peak%20Element/FindPeakElement.cpp) | Medium
 |744|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | [C++](/algorithms/c++/Find%20Smallest%20Letter%20Greater%20Than%20Target/FindSmallestLetterGreaterThanTarget.cpp) | Easy
+|852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | [C++](/algorithms/c++/Peak%20Index%20in%20a%20Mountain%20Array/PeakIndexinaMountainArray.cpp) | Medium
