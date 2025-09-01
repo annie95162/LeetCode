@@ -54,7 +54,6 @@
 *   - No extra space used, constant memory
 *
 **********************************************************************************/
-
 class Solution {
 public:
     int mySqrt(int x) {
@@ -72,6 +71,45 @@ public:
             }else{
                 right = mid - 1;
             }
+        }
+        return ans;
+    }
+};
+
+/**********************************************************************************
+*
+* Solution 2
+*
+**********************************************************************************/
+class Solution {
+public:
+    double myPow(double x, int n) {
+        double ans = 1;
+        if(n == 0 || x == 1){
+            return ans;
+        }
+        if(n == INT_MIN){
+            if( x == 1 || x == -1){
+                return 1;
+            }else{
+                return 0;                
+            }
+        }
+        if(n == INT_MAX){
+            if(x == 1){
+                return 1;
+            }else if(x == -1){
+                return -1;
+            }
+        }
+        while(n > 0){
+            ans = ans * x;
+            n--;
+        }
+        n = n * (-1);
+        while(n > 0){
+            ans = ans / x;
+            n--;
         }
         return ans;
     }
