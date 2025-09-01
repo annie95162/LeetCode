@@ -54,3 +54,4 @@
 |744|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | [C++](/algorithms/c++/Find%20Smallest%20Letter%20Greater%20Than%20Target/FindSmallestLetterGreaterThanTarget.cpp) | Easy
 |852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | [C++](/algorithms/c++/Peak%20Index%20in%20a%20Mountain%20Array/PeakIndexinaMountainArray.cpp) | Medium
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [C++](/algorithms/c++/Sqrt(x)/Sqrt(x).cpp) | Easy
+|50|[Pow(x,n)](https://leetcode.com/problems/powx-n/) | [C++](/algorithms/c++/Pow(x,n)/Pow(x,n).cpp) | Medium
