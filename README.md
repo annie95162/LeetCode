@@ -56,3 +56,4 @@
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [C++](/algorithms/c++/Sqrt(x)/Sqrt(x).cpp) | Easy
 |50|[Pow(x,n)](https://leetcode.com/problems/powx-n/) | [C++](/algorithms/c++/Pow(x,n)/Pow(x,n).cpp) | Medium
 |374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [C++](/algorithms/c++/Guess%20Number%20Higher%20or%20Lower/GuessNumberHigherorLower.cpp) | Easy
+|29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | [C++](/algorithms/c++/Divide%20Two%20Integers/DivideTwoIntegers.cpp) | Medium
