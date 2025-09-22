@@ -9,6 +9,68 @@
 * Given an integer array `nums`, return the bitwise OR of all even numbers in the array.
 * If there are no even numbers, return 0.
 *
+*
+* Example 1:
+*   Input:  nums = [1, 2, 3, 4, 5, 6]
+*   Output: 6
+*   Explanation: Even numbers are 2, 4, 6 → 2 | 4 | 6 = 6
+*
+* Example 2:
+*   Input:  nums = [7, 9, 11]
+*   Output: 0
+*   Explanation: No even numbers, so return 0.
+*
+* Example 3:
+*   Input:  nums = [1, 8, 16]
+*   Output: 24
+*   Explanation: Even numbers are 8, 16 → 8 | 16 = 24
+*
+*
+* Constraints:
+*   - 1 <= nums.length <= 100
+*   - 1 <= nums[i] <= 100
+*
+*
+* Approach: Bitwise OR on Even Numbers
+*
+* - Initialize `ans` as 0
+* - Iterate over each element in `nums`:
+*     - If the number is even (`nums[i] % 2 == 0`), apply bitwise OR with `ans`
+* - Return the final result in `ans`
+*
+* - Bitwise OR (`|`) compares each bit of the numbers:
+*     - If either bit is 1, result is 1
+*     - This accumulates all 1-bits from even numbers
+*
+*
+* Time Complexity: O(n)
+*   - We scan the array once.
+*
+* Space Complexity: O(1)
+*   - Constant space usage.
+*
+**********************************************************************************/
+class Solution {
+public:
+    int evenNumberBitwiseORs(vector<int>& nums) {
+        int ans = 0;
+        for(int i = 0; i < nums.size(); i++){
+            if(nums[i] % 2 == 0){
+                ans |= nums[i];
+            }
+        }
+        return ans;
+
+    }
+};
+
+/**********************************************************************************
+*
+* Problem: Bitwise OR of Even Numbers in an Array
+*
+* Given an integer array `nums`, return the bitwise OR of all even numbers in the array.
+* If there are no even numbers, return 0.
+*
 * Example 1:
 *   Input:  nums = [1, 2, 3, 4, 5, 6]
 *   Output: 6
