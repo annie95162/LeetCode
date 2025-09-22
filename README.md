@@ -57,3 +57,4 @@
 |50|[Pow(x,n)](https://leetcode.com/problems/powx-n/) | [C++](/algorithms/c++/Pow(x,n)/Pow(x,n).cpp) | Medium
 |374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [C++](/algorithms/c++/Guess%20Number%20Higher%20or%20Lower/GuessNumberHigherorLower.cpp) | Easy
 |29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | [C++](/algorithms/c++/Divide%20Two%20Integers/DivideTwoIntegers.cpp) | Medium
+|3688|[Bitwise OR of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/) | [C++](/algorithms/c++/Bitwise%20OR%20of%20Even%20Numbers%20in%20an%20Array/BitwiseORofEvenNumbersinanArray.cpp) | Easy
