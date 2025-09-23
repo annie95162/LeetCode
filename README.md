@@ -60,3 +60,4 @@
 |3688|[Bitwise OR of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/) | [C++](/algorithms/c++/Bitwise%20OR%20of%20Even%20Numbers%20in%20an%20Array/BitwiseORofEvenNumbersinanArray.cpp) | Easy
 |3689|[Maximum Total Subarray Value I](https://leetcode.com/problems/maximum-total-subarray-value-i/) | [C++](/algorithms/c++/Maximum%20Total%20Subarray%20Value%20I/MaximumTotalSubarrayValueI.cpp) | Medium
 |104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [C++](/algorithms/c++/Maximum%20Depth%20of%20Binary%20Tree/MaximumDepthofBinaryTree.cpp) | Easy
+|226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [C++](/algorithms/c%2B%2B/Invert%20Binary%20Tree/InvertBinaryTree.cpp) | Easy
