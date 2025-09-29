@@ -62,3 +62,4 @@
 |104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [C++](/algorithms/c++/Maximum%20Depth%20of%20Binary%20Tree/MaximumDepthofBinaryTree.cpp) | Easy
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [C++](/algorithms/c%2B%2B/Invert%20Binary%20Tree/InvertBinaryTree.cpp) | Easy
 |3697|[Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/) | [C++](/algorithms/c++/Compute%20Decimal%20Representation/ComputeDecimalRepresentation.cpp) | Easy
+|3698|[Split Array With Minimum Difference](https://leetcode.com/problems/split-array-with-minimum-difference/) | [C++](/algorithms/c++/Split%20Array%20With%20Minimum%20Difference/SplitArrayWithMinimumDifference.cpp) | Medium
