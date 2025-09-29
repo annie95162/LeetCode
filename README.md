@@ -61,3 +61,4 @@
 |3689|[Maximum Total Subarray Value I](https://leetcode.com/problems/maximum-total-subarray-value-i/) | [C++](/algorithms/c++/Maximum%20Total%20Subarray%20Value%20I/MaximumTotalSubarrayValueI.cpp) | Medium
 |104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [C++](/algorithms/c++/Maximum%20Depth%20of%20Binary%20Tree/MaximumDepthofBinaryTree.cpp) | Easy
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [C++](/algorithms/c%2B%2B/Invert%20Binary%20Tree/InvertBinaryTree.cpp) | Easy
+|3697|[Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/) | [C++](/algorithms/c++/Compute%20Decimal%20Representation/ComputeDecimalRepresentation.cpp) | Easy
