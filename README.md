@@ -64,3 +64,4 @@
 |3697|[Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/) | [C++](/algorithms/c++/Compute%20Decimal%20Representation/ComputeDecimalRepresentation.cpp) | Easy
 |3698|[Split Array With Minimum Difference](https://leetcode.com/problems/split-array-with-minimum-difference/) | [C++](/algorithms/c++/Split%20Array%20With%20Minimum%20Difference/SplitArrayWithMinimumDifference.cpp) | Medium
 |3699|[Number of ZigZag Arrays I](https://leetcode.cn/problems/number-of-zigzag-arrays-i/) | [C++](/algorithms/c++/Number%20of%20ZigZag%20Arrays%20I/NumberofZigZagArraysI.cpp) | Hard
+|3701|[Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/) | [C++](/algorithms/c++/Compute%20Alternating%20Sum/ComputeAlternatingSum.cpp) | Easy
