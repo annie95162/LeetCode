@@ -65,3 +65,4 @@
 |3698|[Split Array With Minimum Difference](https://leetcode.com/problems/split-array-with-minimum-difference/) | [C++](/algorithms/c++/Split%20Array%20With%20Minimum%20Difference/SplitArrayWithMinimumDifference.cpp) | Medium
 |3699|[Number of ZigZag Arrays I](https://leetcode.cn/problems/number-of-zigzag-arrays-i/) | [C++](/algorithms/c++/Number%20of%20ZigZag%20Arrays%20I/NumberofZigZagArraysI.cpp) | Hard
 |3701|[Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/) | [C++](/algorithms/c++/Compute%20Alternating%20Sum/ComputeAlternatingSum.cpp) | Easy
+|3702|[Longest Subsequence With Non-Zero Bitwise XOR](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/) | [C++](/algorithms/c++/Longest%20Subsequence%20With%20Non-Zero%20Bitwise%20XOR/LongestSubsequenceWithNon-ZeroBitwiseXOR.cpp) | Medium
