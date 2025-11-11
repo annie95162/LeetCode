@@ -68,3 +68,4 @@
 |3702|[Longest Subsequence With Non-Zero Bitwise XOR](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/) | [C++](/algorithms/c++/Longest%20Subsequence%20With%20Non-Zero%20Bitwise%20XOR/LongestSubsequenceWithNon-ZeroBitwiseXOR.cpp) | Medium
 |3712|[Sum of Elements With Frequency Divisible by K](https://leetcode.com/problems/sum-of-elements-with-frequency-divisible-by-k/) | [C++](/algorithms/c++/Sum%20of%20Elements%20With%20Frequency%20Divisible%20by%20K/SumofElementsWithFrequencyDivisiblebyK.cpp) | Easy
 |3713|[Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/) | [C++](/algorithms/c++/Longest%20Balanced%20Substring%20I/LongestBalancedSubstringI.cpp) | Medium
+|3714|[Longest Balanced Substring II](https://leetcode.com/problems/longest-balanced-substring-ii/) | [C++](/algorithms/c++/Longest%20Balanced%20Substring%20II/LongestBalancedSubstringII.cpp) | Medium
