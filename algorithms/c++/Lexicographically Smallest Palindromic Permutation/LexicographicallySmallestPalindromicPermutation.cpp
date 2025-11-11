@@ -6,105 +6,116 @@
 *
 * Problem: Lexicographically Smallest Palindromic Permutation Greater Than Target
 *
-* You are given two strings `s` and `target`, both of the same length `n`,
-* consisting only of lowercase English letters.
+* You are given:
+*   - Two strings of equal length `s` and `target`, both consisting of lowercase
+*     English letters.
 *
-* You must find:
-*   - The lexicographically smallest string that is:
-*       1. A **palindromic permutation** of `s`
-*       2. **Strictly greater than** `target`
+* Goal:
+*   Return the **lexicographically smallest string** that satisfies both:
+*     1. It is a **palindromic permutation** of `s`.
+*     2. It is **strictly greater** than `target`.
 *
-* If no such string exists, return an empty string.
+*   If no such palindrome exists, return an empty string "".
 *
 *
 * Example 1:
 *   Input:  s = "baba", target = "abba"
 *   Output: "baab"
 *   Explanation:
-*     Palindromic permutations of "baba": ["abba", "baab"]
-*     "baab" is the smallest palindrome greater than "abba".
-*
+*     The palindromic permutations of "baba" are ["abba", "baab"].
+*     The smallest palindrome strictly greater than "abba" is "baab".
 *
 * Example 2:
 *   Input:  s = "baba", target = "bbaa"
 *   Output: ""
 *   Explanation:
-*     Palindromic permutations of "baba": ["abba", "baab"]
-*     None of them are greater than "bbaa" → return "".
-*
+*     Palindromic permutations are ["abba", "baab"], and none is > "bbaa".
+*     Therefore, return "".
 *
 * Example 3:
 *   Input:  s = "abc", target = "abb"
 *   Output: ""
 *   Explanation:
-*     "abc" has no valid palindromic permutation → return "".
-*
+*     "abc" has no palindromic permutation → return "".
 *
 * Example 4:
 *   Input:  s = "aac", target = "abb"
 *   Output: "aca"
 *   Explanation:
-*     Only palindrome possible: "aca", and "aca" > "abb".
+*     Only palindrome possible is "aca", which is greater than "abb".
 *
 *
 * Constraints:
-*   - 1 <= n <= 300
-*   - s.length == target.length == n
-*   - s and target consist of lowercase English letters.
+*   - 1 <= n == s.length == target.length <= 300
+*   - s and target consist only of lowercase English letters.
 *
 *
 * -----------------------------------------------------------------------------
-* Approach: Palindromic Construction + Lexicographic Comparison
+* Approach: Character Frequency + Incremental Construction Toward Next Palindrome
 * -----------------------------------------------------------------------------
 *
-* Step 1: **Check for palindromic feasibility**
-*   - Count frequency of each character in `s`.
-*   - For a palindrome to exist:
-*       - If `n` is even → all characters must have even counts.
-*       - If `n` is odd → only one character may have an odd count.
-*   - If more than one character has an odd frequency → return "".
+* 1. **Count frequencies** of all characters in `s`.
+*    - A palindrome can be formed if at most **one character** has an odd frequency.
+*    - If more than one character count is odd → impossible, return "".
 *
 *
-* Step 2: **Form the smallest possible palindrome**
-*   - Construct the **left half** of the palindrome using half of each character count.
-*   - If there is one odd-count character, keep it as the **center**.
-*   - Mirror the left half to form the full palindrome.
-*   - This yields the lexicographically smallest palindromic permutation of `s`.
+* 2. **Identify the middle (odd) character:**
+*    - If there is one odd character, store it as `oddc`.
+*    - Reduce its count by 1 to make all character counts even.
 *
 *
-* Step 3: **Find the next lexicographically greater palindrome**
-*   - Treat the left half of the palindrome as a separate sequence.
-*   - Use `next_permutation()` on the left half to find the next possible arrangement.
-*   - For each permutation:
-*       - Form the full palindrome (left + center + reversed(left)).
-*       - Check if it is strictly greater than `target`.
-*       - Return the first one that satisfies this condition.
-*   - If no greater palindrome can be formed → return "".
+* 3. **Construct the palindrome from the center outward:**
+*    - We need to find the **smallest palindrome** that is still greater than `target`.
+*    - We simulate filling the **first half** of the palindrome (and mirror it).
+*    - At each position, we compare characters with the corresponding position in `target`:
+*         - If possible, place the same character and continue.
+*         - If not possible (due to exhausted frequency or lexicographic constraint),
+*           we try to place the **next greater available character** and fill
+*           the remaining positions with the smallest possible letters.
 *
 *
-* Step 4: **Lexicographic comparison**
-*   - Comparison is performed on full palindrome vs. `target`.
-*   - Once a valid palindrome greater than `target` is found, it’s guaranteed
-*     to be the smallest since we iterate in lexicographic order.
+* 4. **Handle edge cases:**
+*    - If `s` has length 1, directly compare `s[0] > target[0]`.
+*    - If no lexicographically larger palindrome can be formed, return "".
+*
+*
+* 5. **Reconstruct the final palindrome:**
+*    - Combine the first half, optional middle character, and the reversed half.
+*    - This ensures palindrome symmetry.
+*
+*
+* -----------------------------------------------------------------------------
+* Key Mathematical/Algorithmic Notes:
+*
+*   Palindrome feasibility condition:
+*     Σ (count[c] % 2) ≤ 1
+*
+*   Half-building approach:
+*     - Only half of each even-count character is placed explicitly;
+*       the other half is implied by mirroring.
+*
+*   Lexicographic check:
+*     - If the constructed palindrome prefix matches the target’s prefix,
+*       continue comparing.
+*     - Once a prefix becomes lexicographically larger, the rest of the string
+*       can be filled with the smallest available characters.
+*
 *
 * -----------------------------------------------------------------------------
 * Time Complexity:
-*   - O(n log n) for sorting + next_permutation operations
-*   - Efficient since n ≤ 300
+*   - O(26 + n) = O(n), since we only iterate through the string and the alphabet.
+*   - In the worst case, backtracking during construction adds a small constant factor.
 *
 * Space Complexity:
-*   - O(n) for temporary palindrome construction
+*   - O(26) for frequency array + O(n) for palindrome construction = O(n).
+*
 *
 * -----------------------------------------------------------------------------
-* Mathematical Summary:
-*   - Palindrome valid if:
-*       count_odd ≤ 1
-*   - Left half construction:
-*       left = concat(char(i) * (freq[i] / 2))
-*   - Full palindrome:
-*       palindrome = left + middle + reverse(left)
-*   - Search for smallest palindrome s.t.
-*       palindrome > target
+* Summary:
+*   Checks palindrome feasibility via frequency counting.
+*   Uses controlled prefix expansion to find the next lexicographically valid palindrome.
+*   Builds the result by mirroring the left half and inserting the middle (if any).
+*   Returns "" if no valid larger palindrome permutation exists.
 *
 **********************************************************************************/
 class Solution {
