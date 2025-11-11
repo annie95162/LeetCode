@@ -71,3 +71,4 @@
 |3714|[Longest Balanced Substring II](https://leetcode.com/problems/longest-balanced-substring-ii/) | [C++](/algorithms/c++/Longest%20Balanced%20Substring%20II/LongestBalancedSubstringII.cpp) | Medium
 |3715|[Sum of Perfect Square Ancestors](https://leetcode.com/problems/sum-of-perfect-square-ancestors/) | [C++](/algorithms/c++/Sum%20of%20Perfect%20Square%20Ancestors/SumofPerfectSquareAncestors.cpp) | Hard
 |3726|[Remove Zeroes in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation/) | [C++](/algorithms/c++/Remove%20Zeros%20in%20Decimal%20Representation/RemoveZerosinDecimalRepresentation.cpp) | Easy
+|3731|[Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | [C++](/algorithms/c++/Find%20Missing%20Elements/FindMissingElements.cpp) | Easy
