@@ -73,3 +73,4 @@
 |3726|[Remove Zeroes in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation/) | [C++](/algorithms/c++/Remove%20Zeros%20in%20Decimal%20Representation/RemoveZerosinDecimalRepresentation.cpp) | Easy
 |3731|[Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | [C++](/algorithms/c++/Find%20Missing%20Elements/FindMissingElements.cpp) | Easy
 |3732|[Maximum Product of Three Elements After One Replacement](https://leetcode.com/problems/maximum-product-of-three-elements-after-one-replacement/) | [C++](/algorithms/c++/Maximum%20Product%20of%20Three%20Elements%20After%20One%20Replacement/MaximumProductofThreeElementsAfterOneReplacement.cpp) | Medium
+|3733|[Minimum Time to Complete All Deliveries](https://leetcode.com/problems/minimum-time-to-complete-all-deliveries/) | [C++](/algorithms/c++/Minimum%20Time%20to%20Complete%20All%20Deliveries/MinimumTimetoCompleteAllDeliveries.cpp) | Medium
